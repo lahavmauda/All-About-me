@@ -12,8 +12,8 @@ $Subject = $_POST["subject"];
 $Message = $_POST["message"];
 
 /* Email to Admin */
-$to = "lahavmauda@gmail.com"; // This is your email address
-$subject = 'Kamal - Contact Us';
+$to ="lahavmauda@gmail.com";// This is your email address
+$subject = 'Lahav - Contact Us';
 $ishtml = true;
 $text = "";
 
