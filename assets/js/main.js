@@ -72,7 +72,7 @@
      ----------------------------------*/
     function skill_html() {
         $('#html').LineProgressbar({
-            percentage: 92,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -83,7 +83,7 @@
 
     function skill_css() {
         $('#css').LineProgressbar({
-            percentage: 90,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -94,7 +94,7 @@
 
     function skill_javaScript() {
         $('#javascript').LineProgressbar({
-            percentage: 87,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -105,7 +105,7 @@
 
     function skill_jquery() {
         $('#jquery').LineProgressbar({
-            percentage: 88,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -116,7 +116,7 @@
 
     function skill_wordpress() {
         $('#wordpress').LineProgressbar({
-            percentage: 90,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -127,7 +127,7 @@
 
     function skill_web_design() {
         $('#web-design').LineProgressbar({
-            percentage: 90,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -138,7 +138,7 @@
 
     function skill_php() {
         $('#php').LineProgressbar({
-            percentage: 85,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -149,7 +149,7 @@
 
     function skill_web_development() {
         $('#web-development').LineProgressbar({
-            percentage: 90,
+            percentage: 100,
             radius: '3px',
             height: '10px',
             duration: 6000,
@@ -379,5 +379,10 @@
         }
         return false;
     });
-
+// Hide percentage text from LineProgressbar
+$(document).ready(function () {
+    setTimeout(function () {
+        $('.progressbar-percent').hide();
+    }, 100); // קטן עיכוב של 100ms כדי לוודא שהאלמנט נטען
+});
 })(jQuery);

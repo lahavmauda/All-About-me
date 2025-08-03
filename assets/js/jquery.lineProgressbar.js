@@ -12,7 +12,7 @@
         options = $.extend(
             {
                 percentage: 100,
-                ShowProgressCount: true,
+                ShowProgressCount: false,
                 duration: 1000,
                 unit: '%',
                 animation: true,

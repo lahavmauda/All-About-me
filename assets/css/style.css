@@ -568,6 +568,9 @@ p:last-child { margin-bottom:0; }
     .coming-soon .newsletter-form .input-group { display:inline-block; }
     .coming-soon .input-group .form-control { width:100%; margin:0 0 15px; }
     .coming-soon .input-group .input-group-append .btn { border-radius:30px; margin:0 auto; }
+	.progressbar-percent {
+    display: none !important;
+}
 
 }
 
