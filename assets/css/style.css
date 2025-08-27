@@ -315,6 +315,18 @@ p:last-child { margin-bottom:0; }
 /*-----------------------------------------
 * 11. Portfolio Section
 * -----------------------------------------*/
+/* אזור תמונה – ממלאת את כל המסגרת */
+.portfolio .portfolio-wrap > img {
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* יחס צד למסגרות, אפשר גם 16/9 אם מתאים יותר */
+  height: auto;
+  object-fit: contain;      /* ממלא את כל המסגרת */
+  object-position: center; /* מרכז את החיתוך */
+  background-color: #212428;
+  display: block;
+  border-radius: 10px;
+}
+
 .portfolio #portfolio-flters li { 
     cursor:pointer; text-transform:uppercase; background-color:#26282b; color:#c7c7c7; padding:12px 35px; margin:0 10px 10px 10px; -webkit-transition:all .3s ease-in-out; transition:all .3s ease-in-out;
     -webkit-box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416; box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416;
@@ -375,7 +387,7 @@ p:last-child { margin-bottom:0; }
 }
 .contact .card-body:hover { box-shadow:0 0 10px 0 rgba(255,255,255, 0.1); }
 .contact .card-body:hover .card-icon i { 
-    -webkit-box-shadow: -4px -4px 10px 0px #393c40, -4px -4px 5px 0px #393c40, 4px 4px 10px 0px #131416, 4px 4px 5px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416; box-shadow: -4px -4px 10px 0px #393c40, -4px -4px 5px 0px #393c40, 4px 4px 10px 0px #131416, 4px 4px 5px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416;
+    -webkit-box-shadow: -4px -4px 10px 0px #393c40, -4px -4px 5px 0px #393c40, 4px 4px 10px 0px #131416, 4px 4px 5px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416; box-shadow: -4px -4px 10px 0px #393c40, -4px -4px 5px 0px #393c40, 4px 4px 10px 0px #131416, 4px 4px 5px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416;
 }
 .contact .card-body h3 { font-size:18px; font-weight:600; margin:0 0 10px; }
 .contact .card-body .social-links a { font-size:18px; margin-right:15px; }
@@ -439,7 +451,7 @@ p:last-child { margin-bottom:0; }
 .coming-soon .newsletter-form .input-group { max-width:600px; margin:0 auto; }
 .coming-soon .input-group .form-control {
     background-color: #26282b; border: none;
-    webkit-box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416; box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416;
+    -webkit-box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416; box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416;
     -webkit-transition: box-shadow 0.3s cubic-bezier(0.79, 0.21, 0.06, 0.81); transition: box-shadow 0.3s cubic-bezier(0.79, 0.21, 0.06, 0.81);
 }
 .coming-soon .input-group .form-control:focus { 
@@ -447,7 +459,7 @@ p:last-child { margin-bottom:0; }
     box-shadow: -4px -4px 10px 0px #393c40, -4px -4px 5px 0px #393c40, 4px 4px 10px 0px #131416, 4px 4px 5px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416, inset 0px 0px 0px 0px #393c40, inset 0px 0px 0px 0px #131416;
 }
 .coming-soon .input-group .btn {
-    webkit-box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416; box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416;
+    -webkit-box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416; box-shadow: 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #393c40, 0px 0px 0px 0px #131416, 0px 0px 0px 0px #131416, inset -4px -4px 10px 0px #393c40, inset -4px -4px 5px 0px #393c40, inset 4px 4px 10px 0px #131416, inset 4px 4px 5px 0px #131416;
     -webkit-transition: box-shadow 0.3s cubic-bezier(0.79, 0.21, 0.06, 0.81); transition: box-shadow 0.3s cubic-bezier(0.79, 0.21, 0.06, 0.81);
 }
 .coming-soon .input-group .btn:hover {  
@@ -462,7 +474,6 @@ p:last-child { margin-bottom:0; }
 .coming-soon .countdown .digit { color:#c7c7c7; font-size:28px; line-height:28px; font-weight:400; display:block; }
 .coming-soon .countdown .smalltext { margin:7px 0 0; line-height:14px; font-size:14px; color:#c7c7c7; display:block; text-transform:uppercase; }
 .coming-soon .social-icon li a { font-size:20px; color:#c7c7c7; margin:0 10px; }
-
 
 /*-----------------------------------------
 * 15. Styles Switcher CSS
@@ -484,7 +495,6 @@ p:last-child { margin-bottom:0; }
 .switcher-wrapper .switcher-inner .magenta button { background:#ff00ff; }
 .switcher-wrapper .switcher-inner .red button { background:#ff5d56; }
 
-
 /*-----------------------------------------
 * 16. Responsive CSS
 * -----------------------------------------*/
@@ -492,7 +502,6 @@ p:last-child { margin-bottom:0; }
 @media only screen and (max-width:1199px){
     .navigation .navbar-nav .nav-item .nav-link { font-size: 14px; }
     .site-header .download-cv-btn.btn { font-size: 14px; padding: 12px 10px; }
-
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -524,7 +533,6 @@ p:last-child { margin-bottom:0; }
     .menu-toggle-line.open span:nth-child(3) { -webkit-transform:rotate(-45deg) translate(6px,-3px); transform:rotate(-45deg) translate(6px,-3px); }
     .back-to-top { bottom:15px; right:15px; }
     .pages .main-wrapper { padding-top:63px; }
-
 }
 
 /* Small devices (landscape phones, less than 768px */
@@ -549,29 +557,122 @@ p:last-child { margin-bottom:0; }
     .coming-soon .countdown li { width:55px; height:55px; }
     .coming-soon .countdown .digit { font-size:20px; line-height:20px; }
     .coming-soon .countdown .smalltext{ font-size:11px; line-height:11px; }
-
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width:575px){
-    .section-title h1 { font-size:32px; padding-bottom:4px; }
-    .section-subtitle { font-size:23px; margin-bottom:30px !important; }
-    .banner-section .banner-inner .info-button .btn { width:75%; margin-bottom:15px; }
-    .banner-section .banner-inner .center-picture { max-width:150px; }
-    .about-details ul { float:none !important; width:100% !important; padding:0 !important; }
-    .portfolio #portfolio-flters li { width:44%; margin: 0 7px 14px 7px; }
-    .portfolio-details-gallery { margin-right: -10px; margin-left: -10px; }
-    .portfolio-details-gallery .col-6 { padding-right: 10px; padding-left: 10px; }
-    .mfp-arrow-left { left:-20px; }
-    .mfp-arrow-right { right:-20px; }
+  .section-title h1 { font-size:32px; padding-bottom:4px; }
+  .section-subtitle { font-size:23px; margin-bottom:30px !important; }
+  .banner-section .banner-inner .info-button .btn { width:75%; margin-bottom:15px; }
+  .banner-section .banner-inner .center-picture { max-width:150px; }
+  .about-details ul { float:none !important; width:100% !important; padding:0 !important; }
+  .portfolio #portfolio-flters li { width:44%; margin: 0 7px 14px 7px; }
+  .portfolio-details-gallery { margin-right: -10px; margin-left: -10px; }
+  .portfolio-details-gallery .col-6 { padding-right: 10px; padding-left: 10px; }
+  .mfp-arrow-left { left:-20px; }
+  .mfp-arrow-right { right:-20px; }
+  .coming-soon .newsletter-form .input-group { display:inline-block; }
+  .coming-soon .input-group .form-control { width:100%; margin:0 0 15px; }
+  .coming-soon .input-group .input-group-append .btn { border-radius:30px; margin:0 auto; }
+  .progressbar-percent { display: none !important; }
+} /* ← סוגר את ה-media של 575px */
 
-    .coming-soon .newsletter-form .input-group { display:inline-block; }
-    .coming-soon .input-group .form-control { width:100%; margin:0 0 15px; }
-    .coming-soon .input-group .input-group-append .btn { border-radius:30px; margin:0 auto; }
-	.progressbar-percent {
-    display: none !important;
+/* ===== Services – גובה אחיד (מחוץ ל-media) ===== */
+.service .row.row-items { align-items: stretch; }
+.service .row-items .row-item { display: flex; }
+.service .row-items .row-item .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 360px;
+}
+@media (max-width: 767px){
+  .service .row-items .row-item .card { min-height: 300px; }
 }
 
+/* ===== Portfolio – גובה אחיד (מחוץ ל-media) ===== */
+.portfolio .row { align-items: stretch; }
+.portfolio .portfolio-item { display: flex; }
+.portfolio .portfolio-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 420px;
+}
+@media (max-width: 767px){
+  .portfolio .portfolio-wrap { min-height: 300px; }
+}
+/* === Equal height for counter titles === */
+.counter-number .counter-box h5 {
+  min-height: 48px;           /* גובה מינימום אחיד לכל הכותרות */
+  display: flex;
+  align-items: center;        /* ממרכז אנכית */
+  justify-content: center;    /* ממרכז אופקית */
+  text-align: center;         /* ממרכז טקסט */
+}
+/* === PORTFOLIO: equal card heights, keep images un-cropped === */
+.portfolio .row { align-items: stretch; }
+.portfolio .portfolio-item { display: flex; }
+.portfolio .portfolio-item .portfolio-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
+/* אזור תמונה שווה לכל הכרטיסים + בלי חיתוך */
+.portfolio .portfolio-wrap > img {
+  width: 100%;
+  aspect-ratio: 4 / 3;    /* אפשר לשנות ל-4/3 או 16/10 לפי מה שנראה הכי יפה */
+  height: auto;
+  object-fit:contain;     /* כל התמונה בפנים, לא נחתכת */
+  background-color: #212428; /* ימלא את הרווחים מסביב אם יש */
+  display: block;
+  border-radius: 10px;
+}
 
+/* מבטל כל גובה קבוע לתמונות אם הוגדר קודם */
+
+/* מבטל את המסגרת המקווקוות הלבנה בהובר */
+.portfolio .portfolio-wrap .portfolio-info:before,
+.portfolio .portfolio-wrap .portfolio-info:after {
+  content: none !important;
+  border: none !important;
+}
+/* === PORTFOLIO: תמונה ממלאת את המסגרת בצורה אחידה === */
+.portfolio .portfolio-item .portfolio-wrap {
+  aspect-ratio: 4 / 3;   /* אפשר לשנות ל-16/9 לפי הצורך */
+}
+
+.portfolio .portfolio-item .portfolio-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;      /* ממלא את כל המסגרת */
+  object-position: center;
+  display: block;
+  border-radius: 10px;
+}
+/* === פורטפוליו: תמונה ממלאת גם גובה וגם רוחב המסגרת === */
+.portfolio .portfolio-item .portfolio-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;        /* קובע יחס למסגרת (אפשר 16/9 אם מתאים יותר) */
+  overflow: hidden;           /* מסתיר גלישה בשוליים מעוגלים */
+  border-radius: 10px;
+}
+
+/* מבטל את ה-height:auto !important הישן ודואג למילוי מלא */
+.portfolio .portfolio-item .portfolio-wrap img {
+  position: absolute;         /* נמתח על כל המסגרת */
+  inset: 0;                   /* top/right/bottom/left = 0 */
+  width: 100%;
+  height: 100% !important;    /* עוקף את הכלל הישן */
+  object-fit:contain;          /* ממלא את כל המסגרת יפה */
+  object-position: center;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
