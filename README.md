@@ -1,15 +1,24 @@
-About This Project
+# All About Me – Personal QA Portfolio Site
 
-This website was built as part of my professional development journey, combining **HTML** and **CSS** to design and structure a clean, responsive, and user-friendly interface.
+## 👋 About this project
+This is my personal site built with HTML and CSS, designed to share who I am,  
+my journey into the QA world, and the projects I’m working on.
 
-Through many focused hours, I was able to sharpen my technical skills, improve my understanding of DOM **structure, semantic HTML**, and **responsive design**, while also practicing a QA-oriented mindset that emphasizes:
+## 🧭 Purpose
+The goal was to create a simple, clean website that reflects my personality and learning path,  
+and to use it as a small portfolio where I can showcase my QA projects and updates.
 
-**Test Coverage**- verifying functionality across browsers and screen sizes
+## 🛠️ Tools and stack
+- HTML, CSS  
+- GitHub Pages for hosting  
+- Visual Studio Code for editing  
+- Basic responsive layout testing
 
-**Usability Testing**- ensuring intuitive navigation and accessibility
+## 💡 What I learned
+- Building and publishing a static website using GitHub Pages  
+- Organizing project folders and assets  
+- Writing clean and readable HTML and CSS  
+- Understanding how even simple sites can reflect personal quality and detail
 
-**Cross-Platform Validation**- simulating user experience on both desktop and mobile
-
-**Regression Mindset**- checking that new adjustments do not break existing components
-
-This project is more than just a personal portfolio, it is also a **QA practice field** where I applied critical concepts such as **exploratory testing**, **test scenarios,** and **defect detection** in a real environment.
+## 🌐 Live site
+[Visit the website](https://lahavmauda.github.io/All-About-me/)
