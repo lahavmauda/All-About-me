@@ -25,3 +25,8 @@ and to use it as a small portfolio where I can showcase my QA projects and updat
 
 ## 🌐 Live site
 [Visit the website](https://lahavmauda.github.io/All-About-me/)
+
+---
+**License:** [MIT License](./LICENSE) © 2025 Lahav Mauda  
+**Author:** Lahav Mauda | [GitHub Profile](https://github.com/lahavmauda)  
+**Note:** Personal portfolio project built with HTML and CSS to showcase my QA journey, projects, and growth mindset.
