@@ -1,4 +1,7 @@
 # All About Me – Personal QA Portfolio Site
+![HTML](https://img.shields.io/badge/HTML-Learning-blue)
+![CSS](https://img.shields.io/badge/CSS-Practice-purple)
+![Portfolio](https://img.shields.io/badge/Site-Personal-lightgrey)
 
 ## 👋 About this project
 This is my personal site built with HTML and CSS, designed to share who I am,  
